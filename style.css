@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    color: #17153B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about{
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+    margin: 12% 2% 0% 2%;
+}
+
+.profilePicture{
+    border: 2px #C8ACD6 solid;
+    max-width: 250px;
+    max-height: 250px;
+    display: none;
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    padding-left: 3%;
+    border-left: #17153B solid;
+    justify-content: center;
+}
+
+.greeting{
+    font-size: 2.5rem;
+}
+
+.bio{
+    font-size: 1.25rem;
+    opacity: 50%;
+}
+
+.description{
+    margin-top: 1%;
+    font-size: 1.5rem;
+    color: #433D8B;
+}
+
+.gitHubLink{
+    margin-top: 5%;
+    max-width: 2rem;
+    max-height: auto;
+    opacity: 70%;
+}
+
+.scroll{
+    margin-top: 15%;
+    color: #433D8B;
+    margin-bottom: 1%;
+    opacity: 90%;
+    font-size: 0.75rem;
+}
+
+.verticalLine{
+    width: 2px;
+    height: 70vh;
+    background-color: #C8ACD6;
+}
+
+.projects{
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projectsHeader{
+    font-size: 1.75rem;
+    font-weight: bold;
+}
+
+.projectsIntro{
+    margin-top: 1%;
+    font-size: 1.25rem;
+    margin-bottom: 2%;
+    font-weight: 400;
+}
+
+.listOfProjects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40vw;
+    color: #433D8B;
+}
+
+.projectsTitle{
+    font-size: 1.5rem;
+    margin-bottom: 1%;
+    margin-top: 5%; 
+    text-decoration: underline;
+}
+
+.thumbnail{
+    width: 100%;
+    height: auto;
+    border: 3px #C8ACD6 solid;
+    max-width: 800px;
+}
+
+.projectDiscription{
+    margin-top: 0.5rem;
+    font-size: 1.25rem;
+    text-align: left;
+}
+
+.contact{
+    margin-top: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contactHeader{
+    font-size: 1.75rem;
+    font-weight: bold;
+}
+
+.contactIntro{
+    margin-top: 0.5rem;
+    font-size: 1.25rem;
+    text-align: left;
+}
+
+.email{
+    margin-top: 7%;
+    font-size: 1.25rem;
+    text-align: left;
+    text-decoration: underline;
+}
+
+footer{
+    margin-top: 20%;
+    margin-bottom: 50px;
+    display: flex;
+    gap: 40px;
+}
+
+.logos{
+    max-width: 50px;
+    max-height: 50px;
+    opacity: 90%;
+}
+
+@media (max-width: 768px){
+    .about{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .intro{
+        margin-top: 2%;
+        border-left: none;
+        padding-left: 0;
+        border-top: #17153B solid;
+    }
+}

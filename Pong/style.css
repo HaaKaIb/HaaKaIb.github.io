@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+body {
+    background-color: black;
+    overflow: hidden;
+}
+
+.gameContainer{
+    margin-top: 5%;
+    text-align: center;
+    z-index: 1;
+    opacity: 0%;
+    transition: 0.25s;
+}
+
+.gameContainer.transformed{
+    opacity: 100%;
+}
+
+#gameFrame{
+    outline: 2px solid white;
+}
+
+#score{
+    font-size: 30px;
+}
+
+#tip{
+    font-size: 25px;
+}
+
+#fps{
+    display: none;
+}
+
+.gameMenu{
+    text-align: center;
+    margin-top: 10%;
+    z-index: 2;
+    transition: 0.5s;
+}
+
+.gameMenu.transformed{
+    transform: translateY(-170%);
+}
+
+
+#title{
+    font-size: 90px;
+    margin-bottom: 3%;
+}
+
+#singleBtn{
+    width: 250px;
+    height: 50px;  
+    background-color: transparent;
+    font-size: 30px; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 2%;
+    outline: 2px solid white;
+}
+
+#singleBtn:hover{
+    color: black;
+    background-color: white;
+}
+
+#singleBtn:active{
+    transform: scale(0.98);
+}
+
+#multiBtn{
+    width: 250px;
+    height: 50px;  
+    background-color: transparent;
+    font-size: 30px; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 2%;
+    outline: 2px solid white;
+}
+
+#multiBtn:hover{
+    color: black;
+    background-color: white;
+}
+
+#multiBtn:active{
+    transform: scale(0.98);
+}

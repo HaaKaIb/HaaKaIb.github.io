@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pong</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="gameMenu">
+        <h1 id="title">Pong</h1>
+        <button id="singleBtn">Singleplayer</button><br>
+        <button id="multiBtn">Multiplayer</button>
+        <h3 id="subtitle">Press q to quit.</h3>
+    </div>
+
+    <p id="fps"></p>
+    <div class="gameContainer">
+        <h3 id="tip">Press Space to Start</h3>
+        <canvas id="gameFrame" width="1000" height="500">loading...</canvas>
+        <h3 id="score">0 : 0</h3>
+    </div>
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>
