@@ -115,12 +115,14 @@
     height: auto;
     border: 3px #C8ACD6 solid;
     max-width: 800px;
+    min-width: 350px;
 }
 
 .projectDiscription{
     margin-top: 0.5rem;
     font-size: 1.25rem;
     text-align: left;
+    min-width: 350px;
 }
 
 .contact{
