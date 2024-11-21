@@ -90,7 +90,7 @@ window.addEventListener('load', function(){
             gameContainer.classList.remove('transformed');
             gameMenu.classList.remove('transformed');
             fps.style.display = 'none';
-            tip.innerText = 'Press Space to Start';
+            tip.innerText = 'Press Space to Start.';
             tip.style.opacity = 100;
         }
     })
@@ -121,13 +121,13 @@ window.addEventListener('load', function(){
 
 
         if (gameActive){
-            if (scoreA == 5){
+            if (scoreA == 3){
                 gameActive = false;
                 tip.innerText = 'Player A Wins! - Press space to play again';
                 tip.style.opacity = 100;
             }
 
-            if (scoreB == 5){
+            if (scoreB == 3){
                 gameActive = false;
                 tip.innerText = 'Player B Wins! - Press space to play again';
                 tip.style.opacity = 100;
